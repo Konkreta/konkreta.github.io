@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', () => {
             alert('Oops! Something went wrong.');
         });
 
-        XHR.open("POST", "https://example.com/cors.php");
+        XHR.open("POST", "https://admin.konkreta.app/order.php");
         XHR.send(FD);
     });
 

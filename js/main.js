@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Access the form element...
     var form = document.getElementById("order");
-
+/*
     // ...and take over its submit event.
     form.addEventListener("submit", function(event) {
         event.preventDefault();
@@ -128,5 +128,6 @@ document.addEventListener('DOMContentLoaded', () => {
         XHR.open("POST", "https://admin.konkreta.app/order.php");
         XHR.send(FD);
     });
+*/
 
 });

@@ -1,0 +1,252 @@
+<!doctype html>
+<html class="no-js" lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Konkreta: o jeito inteligente de pedir concreto</title>
+		<meta name="description" content="Concreto para a sua obra. Fornecemos as melhores cotações das concreteiras da sua região. Entre em contato.">
+		<meta name="keywords" content="Concreto, concreteira, usina de concreto">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="geo.region" content="BR-SP">
+		<meta name="geo.placename" content="São Paulo">
+		<meta name="geo.position" content="-23.55052;-46.633309">
+		<meta name="ICBM" content="-23.55052, -46.633309">
+		<meta name="robots" content="index,follow">
+		<meta name="rating" content="general">
+		<meta name="revisit-after" content="7 days">
+		<link rel="canonical" href="https://konkreta.app/">
+		<meta name="author" content="Konkreta">
+		<meta property="og:region" content="Brasil">
+		<meta property="og:title" content="Konkreta: o jeito inteligente de pedir concreto">
+		<meta property="og:type" content="article">
+		<meta property="og:image" content="https://konkreta.app/og-image.jpg">
+		<meta property="og:url" content="https://konkreta.app/">
+		<meta property="og:description" content="Concreto para a sua obra. Fornecemos as melhores cotações das concreteiras da sua região. Entre em contato.">
+		<meta property="og:site_name" content="Konkreta: o jeito inteligente de pedir concreto.">
+		<!--<meta property="fb:admins" content="Colocar o ID da página do Facebook">-->
+
+		<link rel="apple-touch-icon" href="/icon.png">
+		<!-- Place favicon.ico in the root directory -->
+		<link rel="stylesheet" href="/css/bulma.min.css">
+		<link rel="stylesheet" href="/css/main.css">
+	</head>
+	<body>
+		<div id="page" class="site">
+			<header id="masthead" class="site-header">
+				<div class="site-brand visuallyhidden">
+					<h1 class="site-title"><a href="/" rel="home">Konkreta</a></h1>
+					<p class="site-description">O jeito inteligente de pedir concreto</p>
+				</div>
+				<nav class="navbar is-warning" role="navigation" aria-label="main navigation">
+					<div class="container">
+						<div class="navbar-brand">
+							<a class="navbar-item" href="/">
+							<img src="img/konkreta.svg" alt="Konkreta" width="112" height="28">
+							</a>
+							<a role="button" class="navbar-burger" data-target="nav-menu" aria-label="menu" aria-expanded="false">
+							<span aria-hidden="true"></span>
+							<span aria-hidden="true"></span>
+							<span aria-hidden="true"></span>
+							</a>
+						</div>
+						<div class="navbar-menu" id="nav-menu">
+							<div class="navbar-start">
+								<p class="site-description navbar-item is-hidden-mobile">O jeito inteligente de pedir concreto</p>
+							</div>
+							<div class="navbar-end">
+								<a class="navbar-item" href="/">Início</a>
+								<a class="navbar-item" href="/quem-somos/">Quem somos</a>
+								<a class="navbar-item">Seja nosso parceiro</a>
+								<div class="navbar-item">
+									<p class="control">
+										<a class="button is-dark" href="/">
+										<strong>Compre agora</strong>
+										</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</nav>
+				<!-- #site-navigation -->
+			</header>
+			<div id="content" class="site-content">
+				<section class="hero">
+					<div class="hero-body">
+						<div class="container">
+							<h1 class="title">
+								Konkreta é o novo jeito de pedir concreto
+							</h1>
+							<h2 class="subtitle">
+								Aqui você sempre tem acesso às melhores concreteiras da sua região. Faça seu pedido!
+							</h2>
+							<div class="field">
+								<form id="order">
+								<div id="step-1">
+									<label class="label">Quanto concreto você precisa?</label>
+									<div class="field is-grouped">
+										<p class="control is-expanded">
+											<input id="quantidade" name="quantidade" class="input is-large" type="number" min="1" required="">
+										</p>
+										<p class="control">
+											<a class="button is-large">
+											m<sup>3</sup>
+											</a>
+										</p>
+										<p class="control">
+											<a href="#passo-2" class="button is-info is-large step" data-target="step-2" data-hide="step-1">
+											<strong>Continuar</strong>
+											</a>
+										</p>
+									</div>
+									<p class="help">Digite a quantidade de concreto desejado, em metros cúbicos. <a>Precisa de ajuda?</a></p>
+								</div>
+								
+								<div id="step-2" class="visuallyhidden">
+									<div class="divider">
+										<h2 class="title">Insira o endereço de entrega</h2>
+									</div>
+									<div class="field">
+										<label class="label" for="cep">CEP</label>
+										<p class="control is-expanded">
+											<input id="cep" name="cep" class="input" type="text" required="">
+										</p>
+									</div>
+									<div class="field">
+										<label class="label" for="endereco">Endereço</label>
+										<p class="control is-expanded">
+											<input id="logradouro" name="endereco" class="input endereco" type="text" required="" data-item="logradouro">
+										</p>
+									</div>
+									<div class="field">
+										<label class="label" for="numero">Número</label>
+										<p class="control is-expanded">
+											<input id="numero" name="numero" class="input" type="text" required="">
+										</p>
+									</div>
+									<div class="field">
+										<label class="label" for="complemento">Complemento</label>
+										<p class="control is-expanded">
+											<input id="complemento" name="complemento" class="input endereco" type="text" data-item="complemento">
+										</p>
+									</div>
+									<div class="field">
+										<label class="label" for="bairro">Bairro</label>
+										<p class="control is-expanded">
+											<input id="bairro" name="bairro" class="input endereco" type="text" required=""  data-item="bairro">
+										</p>
+									</div>
+									<div class="field">
+										<label class="label" for="cidade">Cidade</label>
+										<p class="control is-expanded">
+											<input id="localidade" name="cidade" class="input endereco" type="text" required=""  data-item="localidade">
+										</p>
+									</div>
+									<div class="field">
+										<label class="label" for="estado">Estado</label>
+										<div class="select">
+											<select name="select" id="uf" class="endereco input" data-item="uf">
+												<option value="AC">Acre</option>
+												<option value="AL">Alagoas</option>
+												<option value="AP">Amapá</option>
+												<option value="AM">Amazonas</option>
+												<option value="BA">Bahia</option>
+												<option value="CE">Ceará</option>
+												<option value="DF">Distrito Federal</option>
+												<option value="ES">Espírito Santo</option>
+												<option value="GO">Goiás</option>
+												<option value="MA">Maranhão</option>
+												<option value="MT">Mato Grosso</option>
+												<option value="MS">Mato Grosso do Sul</option>
+												<option value="MG">Minas Gerais</option>
+												<option value="PA">Pará</option>
+												<option value="PB">Paraíba</option>
+												<option value="PR">Paraná</option>
+												<option value="PE">Pernambuco</option>
+												<option value="PI">Piauí</option>
+												<option value="RJ">Rio de Janeiro</option>
+												<option value="RN">Rio Grande do Norte</option>
+												<option value="RS">Rio Grande do Sul</option>
+												<option value="RO">Rondônia</option>
+												<option value="RR">Roraima</option>
+												<option value="SC">Santa Catarina</option>
+												<option value="SP">São Paulo</option>
+												<option value="SE">Sergipe</option>
+												<option value="TO">Tocantins</option>
+											</select>
+										</div>
+									</div>
+									<div class="field is-grouped">
+										<p class="control">
+											<a href="#step-1" class="button is-light is-large step" data-target="step-1" data-hide="step-2" data-action="prev">
+											<strong>Voltar</strong>
+											</a>
+										</p>
+										<p class="control">
+											<a href="#step-3" class="button is-info is-large step" data-target="step-3" data-hide="step-2">
+											<strong>Continuar</strong>
+											</a>
+										</p>
+									</div>
+								</div>
+								<div id="step-3" class="visuallyhidden">
+									<div class="divider">
+										<h2 class="title">Insira seus dados para que possamos entrar em contato</h2>
+									</div>
+									<div class="field">
+										<label class="label" for="nome">Nome</label>
+										<p class="control is-expanded">
+											<input id="nome" name="nome" class="input" type="text" required="">
+										</p>
+									</div>
+									<div class="field">
+										<label class="label" for="telefone">Telefone</label>
+										<p class="control is-expanded">
+											<input id="telefone" name="telefone" class="input" type="text" required="">
+										</p>
+									</div>
+									<div class="field">
+										<label class="label" for="e_mail">E-mail</label>
+										<p class="control is-expanded">
+											<input id="e_mail" name="e_mail" class="input" type="text" required="">
+										</p>
+									</div>
+									<div class="field is-grouped">
+										<p class="control">
+											<a href="#step-2" class="button is-light is-large step" data-target="step-2" data-hide="step-3" data-action="prev">
+											<strong>Voltar</strong>
+											</a>
+										</p>
+										<p class="control">
+											<button id="finalizar" class="button is-danger is-large is-pulled-right">
+											<strong>Fazer pedido</strong>
+											</button>
+										</p>
+									</div>
+								</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<footer class="footer">
+				<div class="container">
+					<div class="content">
+						<p>
+							<strong>Konkreta</strong> é um serviço da Moura & Barbosa Serviços de Engenharia e Tecnologia<br> CNPJ: 29.297.178/0001-28
+						</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script src="/js/main.js"></script>
+		<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+		<script>
+			window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+			ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+		</script>
+		<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+	</body>
+</html>
+

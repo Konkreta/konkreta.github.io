@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Artigos on Konkreta</title>
+    <link>https://konkreta.app/artigos/</link>
+    <description>Conteúdo recente de artigos no Konkreta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-BR</language>
+    <lastBuildDate>Thu, 13 Dec 2018 18:23:00 -0200</lastBuildDate>
+
+	<atom:link href="https://konkreta.app/artigos/index.xml" rel="self" type="application/rss+xml" />
+
+
+    <item>
+      <title>Como fazer a cura do concreto?</title>
+      <link>https://konkreta.app/artigos/como-fazer-a-cura-do-concreto/</link>
+      <pubDate>Thu, 13 Dec 2018 18:23:00 -0200</pubDate>
+
+      <guid>https://konkreta.app/artigos/como-fazer-a-cura-do-concreto/</guid>
+      <description> </description>
+    </item>
+
+    <item>
+      <title>O que é concreto?</title>
+      <link>https://konkreta.app/artigos/o-que-e-concreto/</link>
+      <pubDate>Thu, 13 Dec 2018 15:35:00 -0200</pubDate>
+
+      <guid>https://konkreta.app/artigos/o-que-e-concreto/</guid>
+      <description>O concreto é o segundo material mais consumido pela humanidade, perdendo apenas para água. Sendo um material tão importante e tão consumido, é importante entender o que ele é, como utilizá-lo corretamente, como fazer seu controle tecnológico, como fazer seu controle de qualidade e quando deve-se fazer concreto manualmente ou com uma betoneira e, por último, quando deve-se contratar uma concreteira para fornecer concreto para sua obra. Ao longo de uma série de artigos, nós explicaremos tudo o que você precisa saber para fazer uma concretagem segura, racional e econômica na sua obra.</description>
+    </item>
+
+  </channel>
+</rss>

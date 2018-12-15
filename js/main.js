@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-
     // Get all "navbar-burger" elements
     const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
@@ -107,26 +106,20 @@ document.addEventListener('DOMContentLoaded', () => {
     // Form
 
     // Access the form element...
-    var form = document.getElementById("order");
+    var form = document.getElementById("gform");
 
-    // ...and take over its submit event.
-    form.addEventListener("submit", function(event) {
-        event.preventDefault();
+    if (form != null){
+      submitted = false;
+      // ...and take over its submit event.
+      form.addEventListener("submit", function(event) {
+        var submitted = true;
+        var s = form.style;
+        s.opacity = 1;
+        (function fade(){(s.opacity-=.1)<0?s.display="none":setTimeout(fade,40)})();
 
-        var XHR = new XMLHttpRequest();
-        var FD = new FormData(form);
+        document.getElementById("order").insertAdjacentHTML('afterBegin', '<div class="message is-success"><div class="message-body">Sua mensagem foi enviada e será respondida em breve.</div></div>');
 
-        XHR.addEventListener("load", function(event) {
-            alert(event.target.responseText);
-			// Javascript redirect
-        });
-
-        XHR.addEventListener("error", function(event) {
-            alert('Oops! Something went wrong.');
-        });
-
-        XHR.open("POST", "https://example.com/cors.php");
-        XHR.send(FD);
-    });
+      });
+    }
 
 });

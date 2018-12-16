@@ -107,10 +107,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Access the form element...
     var form = document.getElementById("gform");
-    
-    // ...and take over its submit event.
-    form.addEventListener("submit", function(event) {
-        event.preventDefault();
 
     if (form != null){
       submitted = false;
@@ -122,9 +118,8 @@ document.addEventListener('DOMContentLoaded', () => {
         (function fade(){(s.opacity-=.1)<0?s.display="none":setTimeout(fade,40)})();
 
         document.getElementById("order").insertAdjacentHTML('afterBegin', '<div class="message is-success"><div class="message-body">Sua mensagem foi enviada e será respondida em breve.</div></div>');
-          
-    }
-    });
 
+      });
+    }
 
 });

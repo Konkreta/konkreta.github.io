@@ -106,18 +106,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // Form
 
     // Access the form element...
-<<<<<<< HEAD
     var form = document.getElementById("gform");
-=======
-    var form = document.getElementById("order");
-/*
+    
     // ...and take over its submit event.
     form.addEventListener("submit", function(event) {
         event.preventDefault();
-
-        var XHR = new XMLHttpRequest();
-        var FD = new FormData(form);
->>>>>>> 1e176de3b55f553042de0d080fb197cc1dfcd17d
 
     if (form != null){
       submitted = false;
@@ -129,15 +122,9 @@ document.addEventListener('DOMContentLoaded', () => {
         (function fade(){(s.opacity-=.1)<0?s.display="none":setTimeout(fade,40)})();
 
         document.getElementById("order").insertAdjacentHTML('afterBegin', '<div class="message is-success"><div class="message-body">Sua mensagem foi enviada e será respondida em breve.</div></div>');
-
-<<<<<<< HEAD
-      });
+          
     }
-=======
-        XHR.open("POST", "https://admin.konkreta.app/order.php");
-        XHR.send(FD);
     });
-*/
->>>>>>> 1e176de3b55f553042de0d080fb197cc1dfcd17d
+
 
 });

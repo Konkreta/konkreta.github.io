@@ -218,6 +218,10 @@ a img.aligncenter {
   margin-top: 1.5em;
 }
 
+.wrapper {
+    padding: 0.5rem 0.75rem;
+}
+
 
 /* ==========================================================================
    Helper classes
